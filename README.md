@@ -1,7 +1,7 @@
 # Image Captioning using InceptionV3 and LSTM
 
 ## Overview
-This project implements an image captioning model using InceptionV3 for image feature extraction and an LSTM-based sequence model for generating captions. The COCO 2017 training dataset is used.
+This project implements an image captioning model using InceptionV3 for image feature extraction and an LSTM-based sequence model for generating captions. [The COCO 2017 training dataset](https://cocodataset.org/#home) is used.
 
 ## Prerequisites
 Install required libraries:
@@ -94,6 +94,8 @@ plt.legend()
 plt.savefig("coco_training_history.png")
 plt.show()
 ```
+
+![alt text](https://github.com/ItS-arMan/Image-Captioning/blob/main/coco_training_history.png "training_history")
 
 ## Conclusion
 This project integrates CNNs and LSTMs for image captioning. Future improvements can include Transformer-based architectures.
