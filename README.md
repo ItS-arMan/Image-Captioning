@@ -96,7 +96,3 @@ plt.show()
 ```
 
 ![alt text](https://github.com/ItS-arMan/Image-Captioning/blob/main/coco_training_history.png "training_history")
-
-## Conclusion
-This project integrates CNNs and LSTMs for image captioning. Future improvements can include Transformer-based architectures.
-
